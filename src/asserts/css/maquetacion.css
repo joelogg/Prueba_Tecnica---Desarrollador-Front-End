@@ -1,0 +1,48 @@
+body{
+    font-family: Quicksand;
+}
+
+#contenidoTotal
+{
+    display: grid;
+    grid-template-columns: 330px auto;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#sideBar{
+    background-color: #662323;
+    color: #FFF;
+    height: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+#contenidoPrincipal{
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: auto;
+}
+
+@media screen and (max-width: 730px) {
+    #contenidoTotal{
+        display: block;
+    }
+    #sideBar{
+        position: absolute;
+        width: 330px;
+        left: -290px;
+    }
+
+    #contenidoPrincipal{
+        padding-left: 50px;
+        padding-right: 10px;
+    }
+
+    #sideBar:hover{
+        left: 0px;
+    }
+  }

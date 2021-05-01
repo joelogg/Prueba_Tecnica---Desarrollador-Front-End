@@ -1,0 +1,56 @@
+#sideBar a {
+  color: #fff;
+}
+
+.btn_sidebar {
+  padding-left: 40px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.urlActivo a {
+  color: #e86060 !important;
+  text-decoration: none;
+}
+
+.urlActivo {
+  border-left: 5px solid #e86060;
+  padding-left: 35px;
+}
+
+#logo {
+  width: 250px;
+  height: 59px;
+  margin-left: 40px;
+  margin-top: 50px;
+
+  background: url("../images/foxbel-music.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  box-sizing: border-box;
+}
+
+.titulos_sideBars {
+  margin-left: 40px;
+  margin-top: 30px;
+  height: 28px;
+
+  /* 22-bold-white */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #ffffff;
+  box-sizing: border-box;
+}
